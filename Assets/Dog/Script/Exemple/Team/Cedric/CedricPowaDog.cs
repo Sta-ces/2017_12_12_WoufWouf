@@ -7,8 +7,8 @@ public class CedricPowaDog : Dog
 	#region Public Members
 
 		public Rigidbody m_rigidbody;
-		public List<AudioClip> m_listDogSounds;
 		public AudioSource m_audioSource;
+		public List<AudioClip> m_listDogSounds;
 
 	#endregion
 
@@ -34,10 +34,6 @@ public class CedricPowaDog : Dog
 
     public override void Jump(float heighCm)
     {
-        //TODO Add the jump to the dog
-        // Can be RigidBody
-        // Transform
-        // Animation
     	m_rigidbody.AddForce(heighCm * Vector3.up * 0.01f, ForceMode.Impulse);
     }
 
