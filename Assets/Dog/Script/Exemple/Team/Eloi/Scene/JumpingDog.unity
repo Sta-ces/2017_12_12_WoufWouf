@@ -199,8 +199,8 @@ GameObject:
   m_Component:
   - component: {fileID: 521577452}
   - component: {fileID: 521577451}
-  - component: {fileID: 521577449}
   - component: {fileID: 521577454}
+  - component: {fileID: 521577449}
   - component: {fileID: 521577453}
   - component: {fileID: 521577450}
   m_Layer: 0
@@ -218,12 +218,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 521577448}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b81a931c836b3141b39bce8c48b1e20, type: 3}
+  m_Script: {fileID: 11500000, guid: c62b227585a33c949a2aa5355d0cea26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _affectedRigidbody: {fileID: 521577454}
-  _forceByCm: 0.03
-  _audioSource: {fileID: 521577450}
+  m_rigidbody: {fileID: 521577454}
 --- !u!82 &521577450
 AudioSource:
   m_ObjectHideFlags: 0
