@@ -199,8 +199,8 @@ GameObject:
   m_Component:
   - component: {fileID: 521577452}
   - component: {fileID: 521577451}
-  - component: {fileID: 521577454}
   - component: {fileID: 521577449}
+  - component: {fileID: 521577454}
   - component: {fileID: 521577453}
   - component: {fileID: 521577450}
   m_Layer: 0
@@ -222,6 +222,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_rigidbody: {fileID: 521577454}
+  m_listDogSounds:
+  - {fileID: 8300000, guid: 6be61592503e75b4185720a5a1df9b4b, type: 3}
+  - {fileID: 8300000, guid: 9a24e0361b6cd184494df8fccd548cf8, type: 3}
+  - {fileID: 8300000, guid: 9970ff232e978474b870262ea78f18ae, type: 3}
+  m_audioSource: {fileID: 521577450}
 --- !u!82 &521577450
 AudioSource:
   m_ObjectHideFlags: 0
@@ -232,7 +237,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
